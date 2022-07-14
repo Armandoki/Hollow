@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Trajan';
+    src: url(../fonts/TrajanProRegular.ttf);
+}
+
+*{
+    font-family: 'Trajan';
+}
+
+.fondo-cuerpo-normal{
+    background-image: url('../img/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.849);
+    opacity: 0.98;
+}
+
+.fondo-cuerpo-bien{
+    background-image: url('../img/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgba(45, 92, 55, 0.9);
+    opacity: 0.98;
+}
+
+.fondo-cuerpo-mal{
+    background-image: url('../img/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgba(90, 2, 2, 0.9);
+    opacity: 0.98;
+}
+
+
+
+
+.titulo-aplicacion{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.mejor-racha{
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.puntos-actuales{
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#operacion{
+    text-align: center;
+    font-size: 120px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#respuesta{
+    text-align: center;
+    font-size: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.boton-p{
+    height: 60px;
+}
+
+.boton-g{
+    height: 60px;
+}
+
+.contenedor-botones{
+    padding-bottom: 7px;
+}
+
+.imagen-titulo-hollow{
+    height: 60px;
+    rotate: 15deg;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Hollow</title>
+        <link rel="icon" href="static/img/hollow.png">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="static/css/style.css">
+
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    </head> 
+    <body id="cuerpo" class="text-white fondo-cuerpo-normal">
+        <div>
+            <div class="container bg-dark border border-info pb-1 pt-2 border-top-0">
+                
+                <div>
+                    <h1 class="bg-dark border border-info titulo-aplicacion" id="titulo">HOLLOW <img src="static/img/hollowBlanco.png" class="imagen-titulo-hollow"></h1>
+                    <h2 class="bg-dark border border-info mejor-racha" id="mejorRacha"></h2>
+                    <h2 class="bg-dark border border-info puntos-actuales" id="puntosReales"></h2>
+                </div>
+    
+                <div>
+                    <h2 class="border border-info" id="operacion"></h2>
+                </div>
+    
+                <div>
+                    <h2 class="border border-info" id="respuesta"></h2>
+                </div>
+    
+                <div class="botones container">
+                    <div class="row contenedor-botones justify-content-center ">
+                        <button type="button" class="boton-p col-3 btn btn-dark rounded-0 border border-info m-1" onclick="ingresarNumero(1)">1</button>
+                        <button type="button" class="boton-p col-3 btn btn-dark rounded-0 border border-info m-1" onclick="ingresarNumero(2)">2</button>
+                        <button type="button" class="boton-p col-3 btn btn-dark rounded-0 border border-info m-1" onclick="ingresarNumero(3)">3</button>
+                        <button type="button" class="boton-p col-3 btn btn-dark rounded-0 border border-info m-1" onclick="ingresarNumero(4)">4</button>
+                        <button type="button" class="boton-p col-3 btn btn-dark rounded-0 border border-info m-1" onclick="ingresarNumero(5)">5</button>
+                        <button type="button" class="boton-p col-3 btn btn-dark rounded-0 border border-info m-1" onclick="ingresarNumero(6)">6</button>
+                        <button type="button" class="boton-p col-3 btn btn-dark rounded-0 border border-info m-1" onclick="ingresarNumero(7)">7</button>
+                        <button type="button" class="boton-p col-3 btn btn-dark rounded-0 border border-info m-1" onclick="ingresarNumero(8)">8</button>
+                        <button type="button" class="boton-p col-3 btn btn-dark rounded-0 border border-info m-1" onclick="ingresarNumero(9)">9</button>
+                        <button type="button" class="boton-p col-3 btn btn-dark rounded-0 border border-info m-1" onclick="ingresarNumero(10)">-</button>
+                        <button type="button" class="boton-p col-3 btn btn-dark rounded-0 border border-info m-1" onclick="ingresarNumero(0)">0</button>
+                        <button type="button" class="boton-p col-3 btn btn-dark rounded-0 border border-info m-1" onclick="eliminarUltimoIngreso()">BORRAR</button>
+                        <button type="button" class="boton-g col-10 btn btn-dark rounded-0 border border-info m-1 mt-2" onclick="validarRespuesta()">REVISAR</button>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor-alerta">
+                
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="static/js/main.js"></script>
+    </body>
+</html>
